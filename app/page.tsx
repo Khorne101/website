@@ -3,7 +3,10 @@ export default function Home() {
   return (
     <main>
       <header>
+        Khorne
       </header>
+      <body>
+      </body>
     </main>
   );
 }
