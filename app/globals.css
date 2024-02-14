@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+header {
+  background-color: rgb(123, 23, 23);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 100%;
+  height: 4.5rem;
+}
