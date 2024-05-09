@@ -10,8 +10,41 @@
   }
 }
 
+:root {
+  background-image: linear-gradient(to bottom right, #ff222288, #2222ff88);
+  overflow-y: hidden;
+  margin-top: 0px;
+}
+
+body {
+  margin: 0;
+  margin-top: 0;
+}
+
 .main {
-  margin-top: 47vh;
+  margin-top: 0;
+}
+
+.header {
+  margin-top: 0;
+  padding-top: 0px;
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  overflow-y: hidden;
   text-align: center;
-  font-size: 6vh;
+  font-size: 60pt;
+  background-color: #33333333;
+}
+
+.content {
+  margin-top: 0;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 2.5%;
+  padding-top: 15vh;
+  font-size: 20pt;
+  height: 100vh;
+  border-radius: 5px;
+  background-color: #99999966;
 }
