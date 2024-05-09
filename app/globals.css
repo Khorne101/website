@@ -23,28 +23,42 @@ body {
 
 .main {
   margin-top: 0;
+  padding-top: 1px;
+  border: black;
 }
 
 .header {
-  margin-top: 0;
+  margin-top: -1px;
   padding-top: 0px;
   position: fixed;
   height: 10vh;
   width: 100vw;
   overflow-y: hidden;
   text-align: center;
-  font-size: 60pt;
+  font-size: 8.5vh;
   background-color: #33333333;
 }
 
 .content {
-  margin-top: 0;
+  margin-top: calc(15vh - 1px);
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 2.5%;
-  padding-top: 15vh;
-  font-size: 20pt;
+  font-size: 2em;
   height: 100vh;
-  border-radius: 5px;
-  background-color: #99999966;
+  border-radius: 10px;
+  background-color: #77777744;
+  box-shadow: 30px 30px 50px rgba(0,0,0,0.2);
+}
+
+.content box1 {
+  margin: 10px auto;
+  background-color: #77777744;
+  border-radius: 10px;
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+  display: inline-flex;
+  /* max-width: 350px; */
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 }

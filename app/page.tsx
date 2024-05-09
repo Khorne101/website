@@ -7,7 +7,33 @@ export default function Home() {
         Khorne
       </div>
       <div className="content">
-        This is going to be the content of my website
+        <box1>
+          this is a box
+        </box1>
+        <box1>
+          this is a box with more stuff
+        </box1>
+        <box1>
+          this is a box this is a box with even more stuff
+        </box1>
+        <box1>
+          this is a box that has less text
+        </box1>
+        <box1>
+          this is a box that has less text
+        </box1>
+        <box1>
+          this more text more text just to get that width up is a box that has less text
+        </box1>
+        <box1>
+          box
+        </box1>
+        <box1>
+          this is a box that has less text
+        </box1>
+        <box1>
+          this is a box that has less text
+        </box1>
       </div>
     </div>
   );
