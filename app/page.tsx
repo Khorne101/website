@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="main">
       <div className="header">
-        Khorne
+        <p>Khorne</p>
       </div>
       <div className="content">
         <h3>
@@ -53,7 +53,14 @@ export default function Home() {
           <box>
             this is a box
           </box>
+          
         </div>
+        <h3>
+          About Me
+        </h3>
+        <p>
+
+        </p>
       </div>
     </div>
   );

@@ -16,21 +16,23 @@
 
 :root {
   background-image: linear-gradient(to bottom right, #ff222288, #2222ff88);
-  overflow-y: hidden;
-  overflow-x: scroll;
   margin-top: 0px;
+  overflow: hidden;
 }
 
 body {
+  overflow-x: hidden;
+  overflow-y: scroll;
   margin: 0;
   margin-top: 0;
 }
 
 .main {
-  overflow-x: scroll;
+  overflow-y: scroll;
   margin-top: 0;
   padding-top: 1px;
   border: black;
+  height: 30000000000000px;
 }
 
 .header {
@@ -45,13 +47,18 @@ body {
   background-color: #33333333;
 }
 
+.header p {
+  margin-top: -1vh;
+}
+
 .content {
+  overflow-y: scroll;
+  height: 30000000000000px;
   margin-top: calc(15vh - 1px);
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 5%;
   font-size: 2em;
-  height: 100vh;
   border-radius: 10px;
   background-color: #77777744;
   box-shadow: 30px 30px 50px rgba(0,0,0,0.2);
