@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   background-color: white;
   color: black;
@@ -13,6 +17,7 @@
 :root {
   background-image: linear-gradient(to bottom right, #ff222288, #2222ff88);
   overflow-y: hidden;
+  overflow-x: scroll;
   margin-top: 0px;
 }
 
@@ -22,6 +27,7 @@ body {
 }
 
 .main {
+  overflow-x: scroll;
   margin-top: 0;
   padding-top: 1px;
   border: black;
@@ -43,10 +49,33 @@ body {
   margin-top: calc(15vh - 1px);
   margin-left: 10vw;
   margin-right: 10vw;
-  padding: 2.5%;
+  padding: 5%;
   font-size: 2em;
   height: 100vh;
   border-radius: 10px;
   background-color: #77777744;
   box-shadow: 30px 30px 50px rgba(0,0,0,0.2);
+}
+
+h3 {
+  margin: 0px auto 10px;
+}
+
+.content_box {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.content_box box {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-flex;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  background-color: #77777744;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
 }
