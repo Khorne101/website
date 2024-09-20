@@ -4,8 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
 :root {
-  background-color: black;
-  color: white;
+  background-color: #fff;
+  color: black;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,7 +16,7 @@
 }
 
 :root {
-  background-image: linear-gradient(to bottom right, #ff222288, #2222ff88);
+  background-image: linear-gradient(to bottom right, #ff222266, #2222ff66);
   margin-top: 0px;
   overflow-x: hidden;
 }
