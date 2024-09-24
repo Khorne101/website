@@ -18,7 +18,7 @@ export default function Home() {
           </box>
           <box>
             <h3><Link href="https://xcl.vercel.app">XCL</Link></h3>
-            <p>A Organization of programmers run by me and my <Link href="https://hri7566.info">partner</Link>.</p>
+            <p>A Organization of programmers run by me and my business <Link href="https://hri7566.info">partner</Link>.</p>
           </box>
           <box>
             <h3><Link href="https://xnl.vercel.app">XNL</Link></h3>
@@ -33,7 +33,7 @@ export default function Home() {
             <p>My XCL Gitea Profile where I do the rest of my programming.</p>
           </box>
         </div>
-        <h3>
+        {/* <h3>
           About Me
         </h3>
         <p>
@@ -66,7 +66,10 @@ export default function Home() {
         <p>
           We make things. What do we make? Things. We make a lot of things. Things, we make. When we make things, we are making things. Things are definitely made by us. We make things as we make them. Our things are made by us, and we made them. The things we make are made by us. Our things are made, and we made our things. We make our things, as they are our things. The things we make are constituted by the things they are. The things are things, and we made them. Our things are made. The things we make are things, they were made by us, and they are our things.
         </p>
-        <h3>Images</h3>
+        <h3>Images</h3> */}
+        <h3><br></br>WEBSITE WIP</h3>
+        <div className="filler">
+        </div>
       </div>
     </div>
   );

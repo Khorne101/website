@@ -3,20 +3,32 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
-:root {
+/* :root {
   background-color: #fff;
   color: black;
 }
+a:link { 
+  color: #444444;
+}
+a:visited {
+  color: #444444;
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
   :root {
     background-color: black;
     color: white;
   }
-}
+  a:link { 
+    color: #bbbbbb;
+  }
+  a:visited {
+    color: #bbbbbb;
+  }
+/* } */
 
 :root {
-  background-image: linear-gradient(to bottom right, #ff222266, #2222ff66);
+  background-image: linear-gradient(to bottom right, #ff222244, #2222ff44);
   margin-top: 0px;
   overflow-x: hidden;
 }
@@ -56,6 +68,7 @@ body {
 
 .content {
   margin-top: calc(15vh - 1px);
+  margin-bottom: 5vh;
   margin-left: 10vw;
   margin-right: 10vw;
   padding: 5%;
@@ -109,6 +122,21 @@ p {
   margin-bottom: 0px;
   font-size: 1rem;
 } 
+
+.filler {
+  height: 50vh
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 1800px) {
