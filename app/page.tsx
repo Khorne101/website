@@ -45,29 +45,9 @@ export default function Home() {
         <p>
           We make things. What do we make? Things. We make a lot of things. Things, we make. When we make things, we are making things. Things are definitely made by us. We make things as we make them. Our things are made by us, and we made them. The things we make are made by us. Our things are made, and we made our things. We make our things, as they are our things. The things we make are constituted by the things they are. The things are things, and we made them. Our things are made. The things we make are things, they were made by us, and they are our things.
         </p>
-        <h3>
-          More things about me
-        </h3>
-        <p>
-          i am a persony person who persons persons in the back of a person impersonating those people to person their persons into people for me to impersonate those people into believing im the persony person who they personly want to person their persons into other persons and vans and trucks and ships and i ship those persons across this planet and i keep shipping those persony person s into this planets core to fuel my infinite desire to person them all, this has been a long and fruitless journey to self-redemption in the eyes of the ultimate person in who i want to show who the true person to take them on is, and its me, of course its me, i am the worlds most persony person and this has gotten insanely long and this is exactly how long i want it to be so i can truely test how this webpage will withstand to an insanely lone one thousand plus cahracter long about me that goes into oh so much detail about who i am and about who i am not while also giving the reader absolutely zero idea who i really am.
-        </p>
-        <p>
-          We make things. What do we make? Things. We make a lot of things. Things, we make. When we make things, we are making things. Things are definitely made by us. We make things as we make them. Our things are made by us, and we made them. The things we make are made by us. Our things are made, and we made our things. We make our things, as they are our things. The things we make are constituted by the things they are. The things are things, and we made them. Our things are made. The things we make are things, they were made by us, and they are our things.
-        </p>
-        <p>
-          i am a persony person who persons persons in the back of a person impersonating those people to person their persons into people for me to impersonate those people into believing im the persony person who they personly want to person their persons into other persons and vans and trucks and ships and i ship those persons across this planet and i keep shipping those persony person s into this planets core to fuel my infinite desire to person them all, this has been a long and fruitless journey to self-redemption in the eyes of the ultimate person in who i want to show who the true person to take them on is, and its me, of course its me, i am the worlds most persony person and this has gotten insanely long and this is exactly how long i want it to be so i can truely test how this webpage will withstand to an insanely lone one thousand plus cahracter long about me that goes into oh so much detail about who i am and about who i am not while also giving the reader absolutely zero idea who i really am.
-        </p>
-        <p>
-          We make things. What do we make? Things. We make a lot of things. Things, we make. When we make things, we are making things. Things are definitely made by us. We make things as we make them. Our things are made by us, and we made them. The things we make are made by us. Our things are made, and we made our things. We make our things, as they are our things. The things we make are constituted by the things they are. The things are things, and we made them. Our things are made. The things we make are things, they were made by us, and they are our things.
-        </p>
-        <p>
-          i am a persony person who persons persons in the back of a person impersonating those people to person their persons into people for me to impersonate those people into believing im the persony person who they personly want to person their persons into other persons and vans and trucks and ships and i ship those persons across this planet and i keep shipping those persony person s into this planets core to fuel my infinite desire to person them all, this has been a long and fruitless journey to self-redemption in the eyes of the ultimate person in who i want to show who the true person to take them on is, and its me, of course its me, i am the worlds most persony person and this has gotten insanely long and this is exactly how long i want it to be so i can truely test how this webpage will withstand to an insanely lone one thousand plus cahracter long about me that goes into oh so much detail about who i am and about who i am not while also giving the reader absolutely zero idea who i really am.
-        </p>
-        <p>
-          We make things. What do we make? Things. We make a lot of things. Things, we make. When we make things, we are making things. Things are definitely made by us. We make things as we make them. Our things are made by us, and we made them. The things we make are made by us. Our things are made, and we made our things. We make our things, as they are our things. The things we make are constituted by the things they are. The things are things, and we made them. Our things are made. The things we make are things, they were made by us, and they are our things.
-        </p>
-        <h3>Images</h3>
-        <div className="filler">
+        <h3>Blender Images Gallery</h3>
+        <div className="image_gallery">
+          <img src="test.png" alt="a test image"></img>
         </div>
       </div>
     </div>
