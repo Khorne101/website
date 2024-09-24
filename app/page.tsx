@@ -46,8 +46,22 @@ export default function Home() {
           We make things. What do we make? Things. We make a lot of things. Things, we make. When we make things, we are making things. Things are definitely made by us. We make things as we make them. Our things are made by us, and we made them. The things we make are made by us. Our things are made, and we made our things. We make our things, as they are our things. The things we make are constituted by the things they are. The things are things, and we made them. Our things are made. The things we make are things, they were made by us, and they are our things.
         </p>
         <h3>Blender Images Gallery</h3>
-        <div className="image_gallery">
-          <img src="test.png" alt="a test image"></img>
+        <div className="image_slideshow">
+          <div className="slides fade">
+            <div className="numbertext">1 / 3</div>
+            <img src="images/blender1.jpg" style={{ width: 100 }}>
+            <div className="slides_text">Caption Two</div>
+          </div>
+          <div className="slides fade">
+            <div className="numbertext">2 / 3</div>
+            <img src="images/blender2.jpg" style={{ width: 100 }}>
+            <div className="slides_text">Caption Two</div>
+          </div>
+          <div className="slides fade">
+            <div className="numbertext">3 / 3</div>
+            <img src="images/blender2.jpg" style={{ width: 100 }}>
+            <div className="slides_text">Caption Two</div>
+          </div>
         </div>
       </div>
     </div>
