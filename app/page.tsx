@@ -12,26 +12,26 @@ export default function Home() {
           Projects
         </h3>
         <div className="content_box">
-          <box>
+          <div className="box">
             <h3><Link href="https://khornebot.vercel.app">Khorne Bot</Link></h3>
             <p>My discord bot.</p>
-          </box>
-          <box>
+          </div>
+          <div className="box">
             <h3><Link href="https://xcl.vercel.app">XCL</Link></h3>
             <p>A Organization of programmers run by me and my business <Link href="https://hri7566.info">partner</Link>.</p>
-          </box>
-          <box>
+          </div>
+          <div className="box">
             <h3><Link href="https://xnl.vercel.app">XNL</Link></h3>
             <p>My specific Organization under XCL, ran by me and my team members.</p>
-          </box>
-          <box>
+          </div>
+          <div className="box">
             <h3><Link href="https://github.com/Khorne101">Github</Link></h3>
             <p>My Github Profile where I do the majority of my programming.</p>
-          </box>
-          <box>
+          </div>
+          <div className="box">
             <h3><Link href="https://git.hri7566.info/Khorne">Gitea</Link></h3>
             <p>My XCL Gitea Profile where I do the rest of my programming.</p>
-          </box>
+          </div>
         </div>
         {/* <h3>
           About Me
