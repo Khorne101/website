@@ -62,7 +62,9 @@ export default function Home() {
         </ImageSlideshow> */}
         <Carousel images={[
           <CarouselImage key={1} src="/image.png" caption="thing" width={1920} height={1080}/>,
-          <CarouselImage key={2} src="/image2.png" caption="thing" width={1920} height={1080}/>
+          <CarouselImage key={2} src="/image2.png" caption="thing" width={1920} height={1080}/>,
+          <CarouselImage key={3} src="/image3.png" caption="thing" width={1920} height={1080}/>,
+          <CarouselImage key={4} src="/image4.png" caption="thing" width={1920} height={1080}/>
         ]}/>
         
       </div>
