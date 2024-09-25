@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ImageSlideshow from "./components/ImageSlideshow";
 import ImageSlide from "./components/ImageSlide";
+import { Carousel, CarouselImage } from "./components/Carousel";
 
 export default function Home() {
   return (
@@ -55,10 +56,14 @@ export default function Home() {
             <div className="slides_text">Caption Two</div>
           </div>
         </div> */}
-        <ImageSlideshow>
+        {/* <ImageSlideshow>
           <ImageSlide src="/image.png" caption=""/>
           <ImageSlide src="/image2.png" caption=""/>
-        </ImageSlideshow>
+        </ImageSlideshow> */}
+        <Carousel images={[
+          <CarouselImage src="/image.png" caption="thing" width={1920} height={1080}/>,
+          <CarouselImage src="/image2.png" caption="thing" width={1920} height={1080}/>
+        ]}/>
         
       </div>
     </div>

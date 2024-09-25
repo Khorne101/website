@@ -45,6 +45,7 @@ body {
 }
 
 .header {
+  z-index: 10;
   margin-top: -1px;
   padding-top: 0px;
   position: fixed;
@@ -67,6 +68,7 @@ body {
 }
 
 .content {
+  z-index: 0;
   margin-top: calc(15vh - 1px);
   margin-bottom: 5vh;
   margin-left: 10vw;
@@ -127,21 +129,21 @@ p {
   height: 50vh
 }
 
-* {box-sizing:border-box}
+/* * {box-sizing:border-box}
 
-/* Slideshow container */
+/* Slideshow container 
 .image_slideshow {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
+/* Hide the images by default 
 .slide {
   display: none;
 }
 
-/* Next & previous buttons */
+/* Next & previous buttons 
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -157,18 +159,18 @@ p {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Position the "next button" to the right 
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a black background color with a little bit see-through 
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+/* Caption text 
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -177,7 +179,7 @@ p {
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
+} */
 
 /* Number text (1/3 etc) */
 /* .numbertext {
@@ -211,12 +213,46 @@ p {
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: 0.4}
   to {opacity: 1}
 }
 
+.ImageCarousel {
+  z-index: 0;
+  width:100%;
+}
 
+.ImageCarousel .img {
+  z-index: 0;
+}
 
+.ImageCarousel .prev, .ImageCarousel .next {
+  cursor: pointer;
+  position: relative;
+  top: auto;
+  height: 20%;
+  width: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 10px;
+  user-select: none;
+  text-align: center;
+  z-index: 1;
+}
+/* .ImageCarousel .next {
+  left: calc(100% - 100px);
+}
+.ImageCarousel .prev {
+  left: 0;
+} */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 
 
 
